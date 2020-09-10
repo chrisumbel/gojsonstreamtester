@@ -5,7 +5,7 @@ int main() {
     using namespace std;
 
     while(1) {
-        std::cout << "{\"Value\": " << i++ << ", \"Pom\": {\"OtherThing\": \"OtherValue\"}}" << endl;
+        cout << "{\"Value\": " << i++ << ", \"Pom\": {\"OtherThing\": \"OtherValue\"}}" << endl;
     }
 
     return 0;
